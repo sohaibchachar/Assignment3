@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  height: 28px;
+  padding: 5px;
+  font: 12px sans-serif;
+  color: white;
+  background: rgb(0, 0, 0);
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none;
+}
